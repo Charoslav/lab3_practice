@@ -24,7 +24,7 @@ def main():
     repositories = search_repositories(query)
     
     if not repositories:
-        print("Репозиторії не знайдено.")
+        print("Репозиторії не знайдено!!!.")
         return
     
     print("\nЗнайдені репозиторії:")
